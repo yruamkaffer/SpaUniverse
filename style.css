@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Font-style*/
+    /*font-family: 'Roboto', sans-serif;*/
+
+    /*Font size*/
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    gap: 4rem;
+    height: 12.2rem;
+    padding-left: 4.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C4C4CC;
+    transition: 400ms;
+}
+
+nav a:hover{
+    font-weight: 700;
+    color: white;
+}
+
+.backgroundWrap img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.centerBox{
+    text-align: center;
+    padding-top: 17.2rem;
+
+}
+
+.alignedBox{
+    text-align: left;
+    margin-left: 10.2rem;
+    margin-top: 6.3rem;
+    width: 45%;
+}
+
+button{
+    text-transform: uppercase;
+    background: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 3.2rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    margin-top: 2.4rem;
+    transition: 400ms;
+}
+
+button:hover {
+    background-color: white;
+    color: #02799D;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+    color: #E1E1E6;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 125%;
+    color: #E1E1E6;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 160%;
+    color: #E1E1E6;
+    margin-top: 1.6rem;
+}
